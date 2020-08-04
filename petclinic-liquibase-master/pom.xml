@@ -428,8 +428,8 @@
 					<configuration>
 						<changeLogFile>src\main\resources\db\changes\changelog.xml</changeLogFile>
 						<driver>com.mysql.jdbc.Driver</driver>
-						<url>jdbc:mysql://localhost:3306/${env.database}?useUnicode=true</url>
-						<username>root</username>
+						<url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true</url>
+						<username>${env.database}</username>
 						<password>12345</password>
 						<promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
 					</configuration>
