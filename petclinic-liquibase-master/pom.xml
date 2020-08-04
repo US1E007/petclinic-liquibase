@@ -429,7 +429,7 @@
 						<changeLogFile>src\main\resources\db\changes\changelog.xml</changeLogFile>
 						<driver>com.mysql.jdbc.Driver</driver>
 						<url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true</url>
-						<username>${env.database}</username>
+						<username>${abc}</username>
 						<password>12345</password>
 						<promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
 					</configuration>
@@ -507,8 +507,8 @@
 				<db.script>mysql</db.script>
 				<jpa.database>MYSQL</jpa.database>
 				<jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
-				<jdbc.url>jdbc:mysql://localhost:3306/${env.database}?useUnicode=true</jdbc.url>
-				<jdbc.username>root</jdbc.username>
+				<jdbc.url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true</jdbc.url>
+				<jdbc.username>-${abc}</jdbc.username>
 				<jdbc.password>12345</jdbc.password>
 			</properties>
 			<dependencies>
