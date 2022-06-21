@@ -37,7 +37,7 @@
 		<assertj.version>2.2.0</assertj.version>
 
 		<!-- Others -->
-		<mysql-driver.version>8.0.17</mysql-driver.version>
+		<mysql-driver.version>8.0.28</mysql-driver.version>
 
 		<postgresql-driver.version>9.4.1211.jre7</postgresql-driver.version>
 
@@ -238,7 +238,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.17</version>
+			<version>8.0.28</version>
 		</dependency>
 		<dependency>
 			<groupId>org.liquibase</groupId>
